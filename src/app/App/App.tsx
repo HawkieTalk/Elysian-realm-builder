@@ -1,17 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { Box } from '@mui/material';
 import { AppHead } from '../AppHead/AppHead';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { RouterLoyaout } from '../RouterLoyaout';
 
 export const App: React.FC = () => {
-	const location = useLocation();
-
-	useEffect(() => {
-		console.log(location);
-	}, [location]);
-
 	return (
 		<Box className="App">
 			<AppHead />

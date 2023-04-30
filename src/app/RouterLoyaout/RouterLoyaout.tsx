@@ -1,17 +1,24 @@
 import { AppBar, Toolbar, Button } from '@mui/material';
 import { Box, Container } from '@mui/system';
 import React, { useCallback } from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 
 const pages = ['home', 'create'];
 
 export const RouterLoyaout: React.FC = () => {
+	const { pathname } = useLocation();
 	const navigate = useNavigate();
-	const handleClick = useCallback((page: string) => {
-		const pagePath = page === 'home' ? '' : page;
 
-		navigate(pagePath);
-	}, []);
+	const handleClick = useCallback(
+		(page: string) => {
+			const pagePath = page === 'home' ? '' : page;
+
+			if (pathname !== `/${pagePath}`) {
+				navigate(pagePath);
+			}
+		},
+		[pathname]
+	);
 
 	return (
 		<>
