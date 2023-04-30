@@ -10,7 +10,7 @@ export const RouterLoyaout: React.FC = () => {
 	const handleClick = useCallback((page: string) => {
 		const pagePath = page === 'home' ? '' : page;
 
-		navigate(`Elysian-realm-builder/${pagePath}`);
+		navigate(pagePath);
 	}, []);
 
 	return (
