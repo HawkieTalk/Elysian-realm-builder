@@ -6,7 +6,7 @@ export const AppHead: FC = () => {
 		<>
 			<Helmet>
 				<meta charSet="utf-8" />
-				<title>Elysian guide</title>
+				<title>Elysian realm builder</title>
 			</Helmet>
 		</>
 	);
