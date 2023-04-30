@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { App } from './app/App';
-import { BrowserRouter } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<MemoryRouter>
 			<App />
-		</BrowserRouter>
+		</MemoryRouter>
 	</React.StrictMode>
 );
 
