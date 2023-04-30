@@ -9,7 +9,7 @@ export const App: React.FC = () => {
 		<Box className="App">
 			<AppHead />
 			<Routes>
-				<Route path="/">
+				<Route path="Elysian-realm-builder">
 					<Route index element={<Box>Home</Box>} />
 					<Route path="create" element={<Box>Create</Box>} />
 				</Route>
