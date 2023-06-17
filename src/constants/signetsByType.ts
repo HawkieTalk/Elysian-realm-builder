@@ -1,8 +1,8 @@
-import { SignetTypes, SignetRarity } from '../enums';
+import { SignetType, SignetRarity } from '../enums';
 import { SignetsByType } from '../types';
 
 export const SIGNETS_BY_TYPE: SignetsByType = {
-	[SignetTypes.Deliverance]: [
+	[SignetType.Deliverance]: [
 		{ name: 'Goblet of the Giver', rarity: SignetRarity.Normal },
 		{ name: 'Pendant of the Watcher', rarity: SignetRarity.Normal },
 		{ name: 'Brand of the Undead', rarity: SignetRarity.Normal },
@@ -28,7 +28,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Gold]: [
+	[SignetType.Gold]: [
 		{ name: 'Recitatif of Eden', rarity: SignetRarity.Normal },
 		{ name: 'Recitatif of Creeks', rarity: SignetRarity.Normal },
 		{ name: 'Recitatif of Birds', rarity: SignetRarity.Normal },
@@ -54,7 +54,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Decimation]: [
+	[SignetType.Decimation]: [
 		{ name: 'Blade, Grave, and Scar', rarity: SignetRarity.Normal },
 		{ name: 'Bone, Blood, and Ribbon', rarity: SignetRarity.Normal },
 		{ name: 'Letter, Maniac, and Ravings', rarity: SignetRarity.Normal },
@@ -92,7 +92,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Bodhi]: [
+	[SignetType.Bodhi]: [
 		{ name: 'Motto of Pubbe-Nivasanussati', rarity: SignetRarity.Normal },
 		{ name: 'Motto of Dibba-Cakkhu', rarity: SignetRarity.Normal },
 		{ name: 'Motto of Dibba-Sota', rarity: SignetRarity.Normal },
@@ -130,7 +130,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Setsuna]: [
+	[SignetType.Setsuna]: [
 		{ name: 'Bountiful Blossom: Ume', rarity: SignetRarity.Normal },
 		{ name: 'Bountiful Blossom: Koyo', rarity: SignetRarity.Normal },
 		{ name: 'Bountiful Blossom: Botan', rarity: SignetRarity.Normal },
@@ -171,7 +171,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Infinity]: [
+	[SignetType.Infinity]: [
 		{ name: 'Rodent [V]', rarity: SignetRarity.Normal },
 		{ name: 'Entwined [P]', rarity: SignetRarity.Normal },
 		{ name: 'Silent [B]', rarity: SignetRarity.Normal },
@@ -212,7 +212,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Vicissitude]: [
+	[SignetType.Vicissitude]: [
 		{ name: 'Long Trip', rarity: SignetRarity.Normal },
 		{ name: 'Days Gone', rarity: SignetRarity.Normal },
 		{ name: 'Dark Garb No More', rarity: SignetRarity.Normal },
@@ -253,8 +253,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Ego]: [],
-	[SignetTypes.Discipline]: [
+	[SignetType.Discipline]: [
 		{ name: 'First, No Betrayal', rarity: SignetRarity.Normal },
 		{ name: 'Second, No Deception', rarity: SignetRarity.Normal },
 		{ name: 'Third, No Brutality', rarity: SignetRarity.Normal },
@@ -295,7 +294,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Helix]: [
+	[SignetType.Helix]: [
 		{ name: 'Act I: Magic', rarity: SignetRarity.Normal },
 		{ name: 'Act II: Pendulum', rarity: SignetRarity.Normal },
 		{ name: 'Act III: Conflict', rarity: SignetRarity.Normal },
@@ -336,7 +335,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Daybreak]: [
+	[SignetType.Daybreak]: [
 		{ name: 'Talons that Desecrate the Santuary', rarity: SignetRarity.Normal },
 		{ name: 'Wings that Mask the Sanguine Moon', rarity: SignetRarity.Normal },
 		{ name: 'Horns that Rip the Bleak Sky', rarity: SignetRarity.Normal },
@@ -380,7 +379,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Stars]: [
+	[SignetType.Stars]: [
 		{ name: 'Red & Hot', rarity: SignetRarity.Normal },
 		{ name: 'Blue & Cold', rarity: SignetRarity.Normal },
 		{ name: 'Yellow & Warm', rarity: SignetRarity.Normal },
@@ -424,7 +423,7 @@ export const SIGNETS_BY_TYPE: SignetsByType = {
 			],
 		},
 	],
-	[SignetTypes.Reverie]: [
+	[SignetType.Reverie]: [
 		{ name: 'Motto of Meow', rarity: SignetRarity.Normal },
 		{ name: 'Back-Curled Tail', rarity: SignetRarity.Normal },
 		{ name: 'Neighborhood Chatters', rarity: SignetRarity.Normal },

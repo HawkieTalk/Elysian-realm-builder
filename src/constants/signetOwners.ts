@@ -1,18 +1,18 @@
 import { EnumDictionary } from '../types';
-import { SignetTypes } from '../enums/signetTypes';
+import { SignetType } from '../enums/signetType';
 
-export const SIGNET_OWNERS: EnumDictionary<SignetTypes, string> = {
-	[SignetTypes.Deliverance]: 'Kevin',
-	[SignetTypes.Gold]: 'Eden',
-	[SignetTypes.Decimation]: 'Kalpas',
-	[SignetTypes.Bodhi]: 'Su',
-	[SignetTypes.Setsuna]: 'Sakura',
-	[SignetTypes.Infinity]: 'Mobius',
-	[SignetTypes.Vicissitude]: 'Hua',
-	[SignetTypes.Ego]: 'Elysia',
-	[SignetTypes.Discipline]: 'Aponia',
-	[SignetTypes.Helix]: 'Vill-V',
-	[SignetTypes.Daybreak]: 'Kosma',
-	[SignetTypes.Stars]: 'Griseo',
-	[SignetTypes.Reverie]: 'Pardofelis',
+export const SIGNET_OWNERS: EnumDictionary<SignetType, string> = {
+	[SignetType.Deliverance]: 'Kevin',
+	[SignetType.Gold]: 'Eden',
+	[SignetType.Decimation]: 'Kalpas',
+	[SignetType.Bodhi]: 'Su',
+	[SignetType.Setsuna]: 'Sakura',
+	[SignetType.Infinity]: 'Mobius',
+	[SignetType.Vicissitude]: 'Hua',
+	[SignetType.Ego]: 'Elysia',
+	[SignetType.Discipline]: 'Aponia',
+	[SignetType.Helix]: 'Vill-V',
+	[SignetType.Daybreak]: 'Kosma',
+	[SignetType.Stars]: 'Griseo',
+	[SignetType.Reverie]: 'Pardofelis',
 };

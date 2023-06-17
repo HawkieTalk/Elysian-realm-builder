@@ -1,4 +1,4 @@
-export enum SignetTypes {
+export enum SignetType {
 	Deliverance,
 	Gold,
 	Decimation,

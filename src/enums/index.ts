@@ -1,2 +1,3 @@
-export * from './signetTypes';
+export * from './signetType';
 export * from './signetRarity';
+export * from './battlesuitType';
