@@ -1,0 +1,15 @@
+export enum SignetTypes {
+	Deliverance,
+	Gold,
+	Decimation,
+	Bodhi,
+	Setsuna,
+	Infinity,
+	Vicissitude,
+	Ego,
+	Discipline,
+	Helix,
+	Daybreak,
+	Stars,
+	Reverie,
+}
